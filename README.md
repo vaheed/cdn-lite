@@ -8,8 +8,8 @@ A production-grade, self-hosted mini CDN built on Docker Swarm — inspired by C
 
 | Document | Description |
 |---|---|
-| [CDN Platform v1](cdn_platform) | Core infrastructure: architecture, Docker Swarm stacks, OpenResty, Varnish VCL, Redis, MinIO, PowerDNS, observability, CI/CD, security hardening, backup & disaster recovery |
-| [CDN Platform v2](cdn_v2_full) | Multi-tenant extensions: automatic SSL, per-domain WAF, `cdnctl` CLI, domain registry, step-by-step guides for adding sites and POPs |
+| [CDN Platform v1](./docs/v1-core-infrastructure.md) | Core infrastructure: architecture, Docker Swarm stacks, OpenResty, Varnish VCL, Redis, MinIO, PowerDNS, observability, CI/CD, security hardening, backup & disaster recovery |
+| [CDN Platform v2](./docs/v2-multitenant.md) | Multi-tenant extensions: automatic SSL, per-domain WAF, `cdnctl` CLI, domain registry, step-by-step guides for adding sites and POPs |
 
 ---
 
